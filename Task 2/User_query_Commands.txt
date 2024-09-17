@@ -1,0 +1,30 @@
+Agent can perform these commands/User query
+
+1. Greetings
+curl -X 'POST' \
+'http://127.0.0.1:8000/agent' \
+-H 'Content-Type: application/json' \
+-d '{"query": "hello"}'
+
+
+2. Time
+curl -X 'POST' \
+'http://127.0.0.1:8000/agent' \
+-H 'Content-Type: application/json' \
+-d '{"query": "What is the time?"}'
+
+
+3. Weather
+
+curl -X 'POST' \
+'http://127.0.0.1:8000/agent' \
+-H 'Content-Type: application/json' \
+-d '{"query": "What is the weather?"}'
+
+4. news :
+
+curl -X 'POST' \
+'http://127.0.0.1:8000/agent' \
+-H 'Content-Type: application/json' \
+-d '{"query": "Give me the latest news"}'
+
