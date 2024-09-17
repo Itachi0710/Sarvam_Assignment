@@ -1,0 +1,6 @@
+1. Weather
+
+curl -X 'POST' \
+'http://127.0.0.1:8000/agent' \
+-H 'Content-Type: application/json' \
+-d '{"query": "What is the weather?"}'
